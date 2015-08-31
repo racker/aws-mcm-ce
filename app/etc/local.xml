@@ -40,10 +40,10 @@
             </db>
             <default_setup>
                 <connection>
-                    <host><![CDATA[127.0.0.1]]></host>
-                    <username><![CDATA[root]]></username>
+                    <host><![CDATA[]]></host>
+                    <username><![CDATA[]]></username>
                     <password><![CDATA[]]></password>
-                    <dbname><![CDATA[ce]]></dbname>
+                    <dbname><![CDATA[]]></dbname>
                     <initStatements><![CDATA[SET NAMES utf8]]></initStatements>
                     <model><![CDATA[mysql4]]></model>
                     <type><![CDATA[pdo_mysql]]></type>
@@ -52,7 +52,7 @@
                 </connection>
             </default_setup>
         </resources>
-        <session_save><![CDATA[files]]></session_save>
+        <session_save><![CDATA[db]]></session_save>
     </global>
     <admin>
         <routers>
